@@ -1,0 +1,10 @@
+<div class="main-container">
+
+  {{!-- Redirect the user to "GET /artists"⁄ --}}
+  <form action="/artists" method="get">
+    {{!-- Will define a `req.query.search` --}}
+    <input type="text" name="search">
+    <a href="/artists">Search for an Artist!</a>
+  </form>
+
+</div>
